@@ -144,8 +144,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send
-                                    Message</button>
+                                <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Kirim Pesan</button>
                             </div>
                         </form>
                     </div>
@@ -157,30 +156,30 @@
                     <div class="d-flex">
                         <i class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
                         <div class="pl-3">
-                            <h5>Address</h5>
-                            <p>123 Street, New York, USA</p>
+                            <h5>Alamat</h5>
+                            <p>RA NURUL ISTIQAMAH NURIS LADONGI</p>
                         </div>
                     </div>
                     <div class="d-flex">
                         <i class="fa fa-envelope d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
                         <div class="pl-3">
                             <h5>Email</h5>
-                            <p>info@example.com</p>
+                            <p>tkislamladongi@gmail.com/p>
                         </div>
                     </div>
                     <div class="d-flex">
                         <i class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
                         <div class="pl-3">
                             <h5>Phone</h5>
-                            <p>+012 345 67890</p>
+                            <p>0812-4360-5272</p>
                         </div>
                     </div>
                     <div class="d-flex">
                         <i class="far fa-clock d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
                         <div class="pl-3">
-                            <h5>Opening Hours</h5>
-                            <strong>Sunday - Friday:</strong>
-                            <p class="m-0">08:00 AM - 05:00 PM </p>
+                            <h5>Jam Opeasional</h5>
+                            <strong>Senin - Sabtu:</strong>
+                            <p class="m-0">08:00 - 12:00 WITA </p>
                         </div>
                     </div>
                 </div>
