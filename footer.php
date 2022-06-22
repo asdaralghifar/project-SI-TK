@@ -21,21 +21,21 @@
                  <h4 class="fa fa-map-marker-alt text-primary"></h4>
                  <div class="pl-3">
                      <h5 class="text-white">Alamat</h5>
-                     <p>123 Street, New York, USA</p>
+                     <p>RA NURUL ISTIQAMAH NURIS LADONGI</p>
                  </div>
              </div>
              <div class="d-flex">
                  <h4 class="fa fa-envelope text-primary"></h4>
                  <div class="pl-3">
                      <h5 class="text-white">Email</h5>
-                     <p>info@example.com</p>
+                     <p>tkislamladongi@gmail.com</p>
                  </div>
              </div>
              <div class="d-flex">
                  <h4 class="fa fa-phone-alt text-primary"></h4>
                  <div class="pl-3">
                      <h5 class="text-white">Narahubung</h5>
-                     <p>+012 345 67890</p>
+                     <p>0812-4360-5272</p>
                  </div>
              </div>
          </div>

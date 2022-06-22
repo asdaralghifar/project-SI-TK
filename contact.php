@@ -55,7 +55,7 @@
                 <h1 class="mb-4">Berikut Lokasi Sekolah Kami</h1>
             </div>
             <div class="map">
-                <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15920.425310813724!2d122.50332635000001!3d-3.9985578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d9813f535dadbc9%3A0x10882c4d253343b6!2sVW94%2B2QQ%20RA%20NURUL%20ISTIQAMAH%20NURIS%20LADONGI%2C%20Ladongi%2C%20Kec.%20Ladongi%2C%20Kabupaten%20Kolaka%2C%20Sulawesi%20Tenggara%2093573!5e0!3m2!1sid!2sid!4v1655889077841!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
