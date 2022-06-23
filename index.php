@@ -54,7 +54,7 @@
     <!-- Header End -->
 
     <!-- Gallery Start -->
-    <div class="container-fluid pt-5 pb-3">
+    <!-- <div class="container-fluid pt-5 pb-3">
         <div class="container">
             <div class="text-center pb-2">
                 <p class="section-title px-5"><span class="px-2">Galeri Sekolah</span></p>
@@ -133,7 +133,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Gallery End --
 
 

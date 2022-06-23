@@ -147,14 +147,14 @@
     </div>
     <!-- Class End -->
 
-    <div class="container-fluid pt-5">
+    <!-- <div class="container-fluid pt-5">
         <div class="container">
             <div class="text-center pb-2">
                 <p class="section-title px-5"><span class="px-2">Fasilitas</span></p>
                 <h1 class="mb-4">Fasilitas yang Tersedia di Sekolah Kami</h1>
-            </div>
+            </div> -->
             <!-- Facilities Start -->
-            <div class="container pb-3">
+            <!-- <div class="container pb-3">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 pb-1">
                         <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
@@ -219,7 +219,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- Facilities Start -->

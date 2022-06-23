@@ -1,3 +1,19 @@
+<?php
+session_start();
+if($_SESSION){
+    if($_SESSION['level']=="siswa")
+    {
+        header("Location: siswa");
+    }
+    
+    if($_SESSION['level']=="admin")
+    {
+        header("Location: admin");
+    }
+}
+include('config/cek.php'); 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -208,7 +224,7 @@
                     d="M5 5C3.34315 5 2 6.34315 2 8V16C2 17.6569 3.34315 19 5 19H19C20.6569 19 22 17.6569 22 16V8C22 6.34315 20.6569 5 19 5H5ZM5.49607 7.13174C5.01655 6.85773 4.40569 7.02433 4.13168 7.50385C3.85767 7.98337 4.02427 8.59422 4.50379 8.86823L11.5038 12.8682C11.8112 13.0439 12.1886 13.0439 12.4961 12.8682L19.4961 8.86823C19.9756 8.59422 20.1422 7.98337 19.8682 7.50385C19.5942 7.02433 18.9833 6.85773 18.5038 7.13174L11.9999 10.8482L5.49607 7.13174Z"
                     fill="#CACBCE" />
                 </svg>
-                <input class="input-field border-0" type="text" name="Username" id="username"
+                <input class="input-field border-0" type="text" name="username" id="username"
                   placeholder="Masukkan Username" autocomplete="on" required />
               </div>
             </div>
@@ -222,7 +238,7 @@
                     fill="#CACBCE" />
                 </svg>
                 <input class="input-field border-0" type="password" name="password" id="password-content-4-1"
-                  placeholder="Your Password" minlength="6" required />
+                  placeholder="Your Password" required />
                 <div onclick="togglePassword()">
                   <svg style="margin-left: 0.75rem; cursor: pointer" width="20" height="14" viewBox="0 0 20 14"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -233,7 +249,7 @@
                 </div>
               </div>
             </div>
-            <button class="btn btn-fill text-white d-block w-100" type="submit">
+            <button class="btn btn-fill text-white d-block w-100" type="submit" name='submit'>
               Log In
             </button>
           </form>

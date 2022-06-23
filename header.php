@@ -10,12 +10,13 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav font-weight-bold mx-auto py-0">
                 <a href="index.php" class="nav-item nav-link">Beranda</a>
-                <a href="about.php" class="nav-item nav-link">Profil Sekolah</a>
-                <a href="class.php" class="nav-item nav-link">Kegiatan Pembelajaran</a>
+                <a href="about.php" class="nav-item nav-link">Profil</a>
+                <a href="class.php" class="nav-item nav-link">Kegiatan</a>
                 <a href="team.php" class="nav-item nav-link">Data Guru</a>
                 <a href="contact.php" class="nav-item nav-link">Informasi Pendaftaran</a>
+                
             </div>
-            <!-- <a href="" class="btn btn-primary px-4">Daftar Kelas</a> -->
+            <a href="login.php" class="btn btn-primary px-4">Login</a>
         </div>
     </nav>
 </div>

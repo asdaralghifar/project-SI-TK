@@ -48,17 +48,7 @@
         </div>
     </div>
     <!-- Header End -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">Lokasi</span></p>
-                <h1 class="mb-4">Berikut Lokasi Sekolah Kami</h1>
-            </div>
-            <div class="map">
-                <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15920.425310813724!2d122.50332635000001!3d-3.9985578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d9813f535dadbc9%3A0x10882c4d253343b6!2sVW94%2B2QQ%20RA%20NURUL%20ISTIQAMAH%20NURIS%20LADONGI%2C%20Ladongi%2C%20Kec.%20Ladongi%2C%20Kabupaten%20Kolaka%2C%20Sulawesi%20Tenggara%2093573!5e0!3m2!1sid!2sid!4v1655889077841!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </div>
+   
 
     <!-- Registration Start -->
     <div class="container-fluid py-5">
@@ -79,7 +69,8 @@
                     </ul>
                     <!-- <a href="" class="btn btn-primary mt-4 py-2 px-4">Book Now</a> -->
                 </div>
-                <div class="col-lg-5">
+                
+                <!-- <div class="col-lg-5">
                     <div class="card border-0">
                         <div class="card-header bg-secondary text-center p-4">
                             <h1 class="text-white m-0">Daftar Kelas</h1>
@@ -109,14 +100,26 @@
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Lokasi</span></p>
+                <h1 class="mb-4">Berikut Lokasi Sekolah Kami</h1>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15920.425310813724!2d122.50332635000001!3d-3.9985578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d9813f535dadbc9%3A0x10882c4d253343b6!2sVW94%2B2QQ%20RA%20NURUL%20ISTIQAMAH%20NURIS%20LADONGI%2C%20Ladongi%2C%20Kec.%20Ladongi%2C%20Kabupaten%20Kolaka%2C%20Sulawesi%20Tenggara%2093573!5e0!3m2!1sid!2sid!4v1655889077841!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
     <!-- Registration End -->
 
     <!-- Contact Start -->
-    <div class="container-fluid pt-5">
+    <!-- <div class="container-fluid pt-5">
         <div class="container">
             <div class="text-center pb-2">
                 <p class="section-title px-5"><span class="px-2">saran dan masukan</span></p>
@@ -144,7 +147,8 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Kirim Pesan</button>
+                                <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send
+                                    Message</button>
                             </div>
                         </form>
                     </div>
@@ -156,36 +160,36 @@
                     <div class="d-flex">
                         <i class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
                         <div class="pl-3">
-                            <h5>Alamat</h5>
-                            <p>RA NURUL ISTIQAMAH NURIS LADONGI</p>
+                            <h5>Address</h5>
+                            <p>123 Street, New York, USA</p>
                         </div>
                     </div>
                     <div class="d-flex">
                         <i class="fa fa-envelope d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
                         <div class="pl-3">
                             <h5>Email</h5>
-                            <p>tkislamladongi@gmail.com/p>
+                            <p>info@example.com</p>
                         </div>
                     </div>
                     <div class="d-flex">
                         <i class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
                         <div class="pl-3">
                             <h5>Phone</h5>
-                            <p>0812-4360-5272</p>
+                            <p>+012 345 67890</p>
                         </div>
                     </div>
                     <div class="d-flex">
                         <i class="far fa-clock d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
                         <div class="pl-3">
-                            <h5>Jam Opeasional</h5>
-                            <strong>Senin - Sabtu:</strong>
-                            <p class="m-0">08:00 - 12:00 WITA </p>
+                            <h5>Opening Hours</h5>
+                            <strong>Sunday - Friday:</strong>
+                            <p class="m-0">08:00 AM - 05:00 PM </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Contact End -->
 
 
