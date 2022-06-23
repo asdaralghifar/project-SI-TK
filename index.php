@@ -27,6 +27,124 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        /* 
+---------------------------------------------
+banner
+--------------------------------------------- 
+*/
+
+        section {
+            display: block;
+        }
+
+        .main-banner {
+            position: relative;
+            max-height: 100vh;
+            overflow: hidden;
+            margin-bottom: -7px;
+
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #bg-video {
+            min-width: 100%;
+            min-height: 100vh;
+            max-width: 100%;
+            max-height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        #bg-video::-webkit-media-controls {
+            display: none !important;
+        }
+
+        .video-overlay {
+            position: absolute;
+            background-color: rgba(31, 39, 43, 0.75);
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+        }
+
+        .main-banner .caption {
+            position: absolute;
+            margin-top: 200px;
+            /* top: 55%; */
+            /* transform: translateY(-50%); */
+        }
+
+        .main-banner .caption h6 {
+            /* margin-top: 0px; */
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+
+        .main-banner .caption h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 36px;
+            text-transform: uppercase;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+
+        .main-banner .caption h1 {
+            /* margin-top: 10px; */
+            /* margin-bottom: 20px; */
+            font-size: 60px;
+            text-transform: uppercase;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+
+        .main-banner .caption h2 em {
+            font-style: normal;
+            color: #f5a425;
+            font-weight: 900;
+        }
+
+        .main-banner .caption p {
+            color: #fff;
+            font-size: 14px;
+            max-width: 570px;
+        }
+
+        .main-banner .caption .main-button-red {
+            margin-top: 30px;
+        }
+
+        .featured-image {
+            width: 100%;
+            max-height: 545px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        @media screen and (max-width: 767px) {
+
+            .main-banner .caption h6 {
+                font-weight: 500;
+            }
+
+            .main-banner .caption h2 {
+                font-size: 20px;
+            }
+
+        }
+    </style>
 </head>
 
 <body>
@@ -36,21 +154,30 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
-        <div class="row align-items-center px-3">
-            <div class="col-lg-6 text-center text-lg-left">
-                <h4 class="text-white mb-4 mt-5 mt-lg-0">Kids Learning Center</h4>
-                <h1 class="display-3 font-weight-bold text-white">New Approach to Kids Education</h1>
-                <p class="text-white mb-4">Sea ipsum kasd eirmod kasd magna, est sea et diam ipsum est amet sed sit.
-                    Ipsum dolor no justo dolor et, lorem ut dolor erat dolore sed ipsum at ipsum nonumy amet. Clita
-                    lorem dolore sed stet et est justo dolore.</p>
-                <a href="" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
-            </div>
-            <div class="col-lg-6 text-center text-lg-right">
-                <img class="img-fluid mt-5" src="img/header.png" alt="">
+    <!-- ***** Main Banner Area Start ***** -->
+    <section class="section main-banner" id="top" data-section="section1">
+
+
+        <img src="img/5.jpg" alt="" class="featured-image">
+
+        <div class="video-overlay header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="caption">
+                            <h6>Assalamu'alaikum, Selamat Datang di</h6>
+                            <h2>TK ISLAM</h2>
+                            <h1>LADONGI JAYA</h1>
+                            <div class="main-button-red">
+                                <div class="scroll-to-section"> <a href="about.php" class="btn btn-primary px-4">Selengkapnya</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- ***** Main Banner Area End ***** -->
     <!-- Header End -->
 
     <!-- Gallery Start -->
@@ -134,7 +261,7 @@
             </div>
         </div>
     </div> -->
-    <!-- Gallery End --
+    <!-- Gallery End -->
 
 
     <!-- Testimonial Start -->

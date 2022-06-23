@@ -48,7 +48,7 @@
         </div>
     </div>
     <!-- Header End -->
-   
+
 
     <!-- Registration Start -->
     <div class="container-fluid py-5">
@@ -69,7 +69,7 @@
                     </ul>
                     <!-- <a href="" class="btn btn-primary mt-4 py-2 px-4">Book Now</a> -->
                 </div>
-                
+
                 <!-- <div class="col-lg-5">
                     <div class="card border-0">
                         <div class="card-header bg-secondary text-center p-4">
@@ -112,7 +112,7 @@
                 <h1 class="mb-4">Berikut Lokasi Sekolah Kami</h1>
             </div>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15920.425310813724!2d122.50332635000001!3d-3.9985578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d9813f535dadbc9%3A0x10882c4d253343b6!2sVW94%2B2QQ%20RA%20NURUL%20ISTIQAMAH%20NURIS%20LADONGI%2C%20Ladongi%2C%20Kec.%20Ladongi%2C%20Kabupaten%20Kolaka%2C%20Sulawesi%20Tenggara%2093573!5e0!3m2!1sid!2sid!4v1655889077841!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15920.425310813724!2d122.50332635000001!3d-3.9985578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d9813f535dadbc9%3A0x10882c4d253343b6!2sVW94%2B2QQ%20RA%20NURUL%20ISTIQAMAH%20NURIS%20LADONGI%2C%20Ladongi%2C%20Kec.%20Ladongi%2C%20Kabupaten%20Kolaka%2C%20Sulawesi%20Tenggara%2093573!5e0!3m2!1sid!2sid!4v1655889077841!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
