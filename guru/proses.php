@@ -2,21 +2,22 @@
 
   include ("../config/koneksi.php");
 
-  $query = "INSERT INTO guru (nama, kelamin, tempat_lahir, tanggal_lahir, alamat, phone)
-            VALUES ('$_POST[nama]', '$_POST[kelamin]','$_POST[tempat_lahir]', 
-            '$_POST[tanggal_lahir]', '$_POST[alamat]','$_POST[phone]' )";
-            
-  mysqli_query($con, $query);
+  $rand = rand();
+  $ekstensi =  array('jpg','jpeg');
+  $filename = $_FILES['foto']['name'];
+  $ukuran = $_FILES['foto']['size'];
+  $ext = pathinfo($filename, PATHINFO_EXTENSION);
 
-  if( $query ) {
-    // kalau berhasil alihkan ke halaman list-siswa.php
-    header('Location: profil.php ');
-    } else {
-    // kalau gagal tampilkan pesan
-    die("Gagal menyimpan perubahan...");
+  if(!in_array($ext,$ekstensi) ) {
+    header("location:profil.php?alert=gagal_ekstensi");
+   }else{
+    if($ukuran < 6048000){ 
+    move_uploaded_file($_FILES['foto']['tmp_name'], '../img/'.$filename);
+    mysqli_query($con, "INSERT INTO guru VALUES (NULL,'$_POST[nama]', '$_POST[kelamin]','$_POST[tempat_lahir]', 
+    '$_POST[tanggal_lahir]', '$_POST[alamat]','$_POST[phone]', '$filename')");
+    header("location:profil.php?alert=berhasil");
+    }else{
+    header("location:profil.php?alert=gagal_ukuran");
     }
-
-// else{
-//   echo "File gagal di upload";
-// }
+   }
 ?>

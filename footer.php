@@ -6,7 +6,7 @@
                  <!-- <i class="flaticon-043-teddy-bear"></i> -->
                  <span class="text-white">TK Islam Ladongi Jaya</span>
              </a>
-             <p>TK RA NURUL ISTIQAMAH NURIS LADONGI, TK pertama yang bercirikan Islam di Ladongi Kolaka Timur.</p>
+             <p>TK RA NURUL ISTIQAMAH NURIS LADONGI, TK pertama yang bercirikan Islam di Ladongi, Kabupaten Kolaka Timur.</p>
              <div class="d-flex justify-content-start mt-4">
                  <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                  <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>

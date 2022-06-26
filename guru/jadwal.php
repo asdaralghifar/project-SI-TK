@@ -55,14 +55,12 @@
                     <a class="navbar-brand" href="">
                         <!-- Logo icon -->
                         <b class="logo-icon">
-                            <!-- Dark Logo icon -->
-                            <img src="../adminLTE/plugins/images/logo-icon.png" alt="homepage" />
+                            
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
-                        <span class="logo-text">
-                            <!-- dark Logo text -->
-                            <img src="../adminLTE/plugins/images/logo-text.png" alt="homepage" />
+                        <span class="text-primary">
+                        TK ISLAM LADONGI JAYA
                         </span>
                     </a>
                     <!-- ============================================================== -->

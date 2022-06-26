@@ -10,6 +10,11 @@ if($_SESSION){
     {
         header("Location: admin");
     }
+
+    if($_SESSION['level']=="guru")
+    {
+        header("Location: guru");
+    }
 }
 include('config/cek.php'); 
 ?>

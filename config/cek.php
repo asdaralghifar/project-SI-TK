@@ -43,6 +43,17 @@ if(isset($_POST['submit']))
             javascript:document.location='guru'
             </script>";
         }
+
+        else if($row['level'] == "admin")
+        {
+            
+            // header("Location: member");
+            echo "<script language=javascript>
+            window.alert ('Anda Login Sebagai Admin')
+            javascript:document.location='admin'
+            </script>";
+        }
+
         else
         {
             $error = "Failed Login";

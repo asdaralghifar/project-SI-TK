@@ -17,10 +17,10 @@
     <meta name="description"
         content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
-    <title>Guru</title>
+    <title>Admin</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../adminLTE/plugins/images/favicon.png">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="../adminLTE/plugins/images/favicon.png"> -->
     <!-- Custom CSS -->
     <link href="../adminLTE/plugins/bower_components/chartist/dist/chartist.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../adminLTE/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css">
@@ -85,8 +85,7 @@
                     
                         <li>
                             <a class="profile-pic" href="#">
-                                
-                                    <span class="text-white font-medium">Guru</span></a>
+                                <span class="text-white font-medium">Admin</span></a>
                         </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
@@ -116,20 +115,33 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="jadwal.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="duser.php"
                                 aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu">Jadwal Mengajar</span>
+                                <span class="hide-menu">Daftar User</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profil.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dguru.php"
                                 aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu">Isi Data Diri Guru</span>
+                                <span class="hide-menu">Daftar Guru</span>
                             </a>
                         </li>
-                        
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dsiswa.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu">Daftar Siswa</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="jadwal.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu">Jadwal Kelas</span>
+                            </a>
+                        </li>
                         <li class="text-center p-20 upgrade-btn">
                             <a href="../logout.php" onclick="return confirm('Apakah anda yakin ingin keluar ?')"
                                 class="btn d-grid btn-danger text-white">
@@ -155,7 +167,7 @@
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">Data Diri Guru</h4>
+                        <h4 class="page-title">Home</h4>
                     </div>
                     
                 </div>
@@ -169,90 +181,87 @@
             <!-- ============================================================== -->
             <div class="container-fluid">
                 <!-- ============================================================== -->
-                <!-- Start Page Content -->
+                <!-- Three charts -->
                 <!-- ============================================================== -->
-                <!-- Row -->
-                <div class="row">
-                    
-                    <!-- Column -->
-                    <!-- Column -->
-                   
-
-                    <div class="col-lg-8 col-xlg-9 col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <form class="form-horizontal form-material" action="proses.php" method="post" enctype="multipart/form-data">
-                                    
-                                    <div class="form-group mb-4">
-                                        <label class="col-md-12 p-0">Nama Lengkap</label>
-                                        <div class="col-md-12 border-bottom p-0">
-                                            <input type="text" name="nama" placeholder="Isi Nama Anda"
-                                                class="form-control p-0 border-0"> </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="white-box analytics-info">
+                            <h3 class="box-title">Total Siswa</h3>
+                            <ul class="list-inline two-part d-flex align-items-center mb-0">
+                                <li>
+                                    <div id="sparklinedash"><canvas width="67" height="30"
+                                            style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
                                     </div>
-                                    <div class="form-group mb-4">
-                                        <label class="col-sm-12">Jenis Kelamin</label>
-                                        <div class="col-sm-12 border-bottom">
-                                            <select name="kelamin" class="form-select shadow-none p-0 border-0 form-control-line">
-                                                <option Value="Laki-Laki">Laki-Laki</option>
-                                                <option Value="Perempuan">Perempuan</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-group mb-4">
-                                        <label class="col-md-12 p-0">Tempat Lahir</label>
-                                        <div class="col-md-12 border-bottom p-0">
-                                            <input type="text" name="tempat_lahir" placeholder="Isi Tempat Lahir Anda"
-                                                class="form-control p-0 border-0"> </div>
-                                    </div>
-                                    <div class="form-group mb-4">
-                                        <label class="col-md-12 p-0">Tanggal Lahir</label>
-                                        <div class="col-md-12 border-bottom p-0">
-                                            <input type="date" name="tanggal_lahir"
-                                                class="form-control p-0 border-0"> </div>
-                                    </div>
-                                    <div class="form-group mb-4">
-                                        <label class="col-md-12 p-0">Alamat</label>
-                                        <div class="col-md-12 border-bottom p-0">
-                                            <input type="text" name="alamat" placeholder="Isi Alamat Anda"
-                                                class="form-control p-0 border-0">
-                                        </div>
-                                    </div>
-                                    <div class="form-group mb-4">
-                                        <label class="col-md-12 p-0">Nomor Handphone</label>
-                                        <div class="col-md-12 border-bottom p-0">
-                                        <input type="number" name="phone" placeholder="Isi No. Handphone Anda"
-                                                class="form-control p-0 border-0">
-                                        </div>
-                                    </div>
-                                    <div class="form-group mb-4">
-                                        <label class="col-md-12 p-0">Foto</label>
-                                        <div>
-                                        <input type="file" name="foto" class="form-control p-0 border-0">
-                                        <p><b>File jpg, jpeg. Max 2 MB</b></p>
-                                        </div>
-                                    </div>
-                                    <div class="form-group mb-4">
-                                        <div class="col-sm-12">
-                                            <button class="btn btn-success">Simpan</button>
-                                            <button href="profil.php" class="btn btn-danger">Reset</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
+                                </li>
+                                <?php
+                                    $data_siswa = mysqli_query($con,"SELECT * FROM siswa");
+                                    $jumlah_siswa = mysqli_num_rows($data_siswa);
+                                ?>
+                                <li class="ms-auto"><span class="counter text-success"><?php echo $jumlah_siswa ?></span></li>
+                            </ul>
                         </div>
                     </div>
-                    <!-- Column -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="white-box analytics-info">
+                            <h3 class="box-title">Total Guru</h3>
+                            <ul class="list-inline two-part d-flex align-items-center mb-0">
+                                <li>
+                                    <div id="sparklinedash2"><canvas width="67" height="30"
+                                            style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
+                                    </div>
+                                </li>
+                                <?php
+                                    $data_guru = mysqli_query($con,"SELECT * FROM guru");
+                                    $jumlah_guru = mysqli_num_rows($data_guru);
+                                ?>
+                                <li class="ms-auto"><span class="counter text-purple"><?php echo $jumlah_guru ?></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="white-box analytics-info">
+                            <h3 class="box-title">Total Kelas</h3>
+                            <ul class="list-inline two-part d-flex align-items-center mb-0">
+                                <li>
+                                    <div id="sparklinedash3"><canvas width="67" height="30"
+                                            style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
+                                    </div>
+                                </li>
+                                <?php
+                                    $data_kelas = mysqli_query($con,"SELECT * FROM kelas");
+                                    $jumlah_kelas = mysqli_num_rows($data_kelas);
+                                ?>
+                                <li class="ms-auto"><span class="counter text-info"><?php echo $jumlah_kelas ?></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                
+                
             </div>
-           
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
             <footer class="footer text-center"> 2022 © TK Islam Ladongi Jaya
             </footer>
-            
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
         </div>
-       
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
     </div>
-    
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
     <script src="../adminLTE/plugins/bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="../adminLTE/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
