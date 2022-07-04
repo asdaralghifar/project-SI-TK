@@ -81,6 +81,7 @@ banner
             /* transform: translateY(-50%); */
         }
 
+
         .main-banner .caption h6 {
             /* margin-top: 0px; */
             font-size: 15px;
@@ -133,7 +134,21 @@ banner
             object-position: center;
         }
 
+        .featured-image-gallery {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+        }
+
         @media screen and (max-width: 767px) {
+            .main-banner .caption {
+                margin-top: 60px;
+            }
+
+            .main-banner .caption h1 {
+                font-size: 40px;
+            }
 
             .main-banner .caption h6 {
                 font-weight: 500;
@@ -142,6 +157,7 @@ banner
             .main-banner .caption h2 {
                 font-size: 20px;
             }
+
 
         }
     </style>
@@ -190,19 +206,18 @@ banner
             <div class="row">
                 <div class="col-12 text-center mb-2">
                     <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-outline-primary m-1 active" data-filter="*">All</li>
-                        <li class="btn btn-outline-primary m-1" data-filter=".first">Playing</li>
-                        <li class="btn btn-outline-primary m-1" data-filter=".second">Drawing</li>
-                        <li class="btn btn-outline-primary m-1" data-filter=".third">Reading</li>
+                        <li class="btn btn-outline-primary m-1 active" data-filter="*">Semua</li>
+                        <li class="btn btn-outline-primary m-1" data-filter=".first">Ibadah</li>
+                        <li class="btn btn-outline-primary m-1" data-filter=".second">Kelas</li>
                     </ul>
                 </div>
             </div>
             <div class="row portfolio-container">
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                        <img class="img-fluid w-100 featured-image-gallery" src="img/galeri1.jpeg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                            <a href="img/galeri1.jpeg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>
@@ -210,19 +225,9 @@ banner
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                        <img class="img-fluid w-100 featured-image-gallery" src="img/galeri2.jpeg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                            <a href="img/galeri2.jpeg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>
@@ -230,9 +235,19 @@ banner
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                        <img class="img-fluid w-100 featured-image-gallery" src="img/galeri3.jpeg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                            <a href="img/galeri3.jpeg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid w-100 featured-image-gallery" src="img/galeri4.jpeg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/galeri4.jpeg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>
@@ -240,19 +255,19 @@ banner
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                        <img class="img-fluid w-100 featured-image-gallery" src="img/galeri5.jpeg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                            <a href="img/galeri5.jpeg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                        <img class="img-fluid w-100 featured-image-gallery" src="img/galeri6.jpeg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                            <a href="img/galeri6.jpeg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>

@@ -57,15 +57,20 @@
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <p class="section-title pr-5"><span class="pr-2">Daftar Kelas</span></p>
                     <h1 class="mb-4">Daftarkan Anak Anda</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
+                    <p>Berikut ini adalah persyaratan pendaftaran TK Islam Ladongi Jaya</p>
                     <ul class="list-inline m-0">
-                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Labore eos amet dolor amet diam
+                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Usia 4 - 6 Tahun
                         </li>
-                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Diam dolor diam elitripsum vero.
+                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Foto Copy Kartu Keluarga</li>
+                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Foto Copy Akta Kelahiran
                         </li>
+                    </ul>
+                    <p></p>
+                    <p>Narahubung</p>
+                    <ul class="list-inline m-0">
+                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Bu Natia - 0813-4290-0290
+                        </li>
+                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Bu Ita - 0812-6458-3314</li>
                     </ul>
                     <!-- <a href="" class="btn btn-primary mt-4 py-2 px-4">Book Now</a> -->
                 </div>

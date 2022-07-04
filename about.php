@@ -55,7 +55,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-5 mb-lg-0" src="img/about-1.jpg" alt="">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="img/profil.jpeg" alt="" style="width: 500px; height: 100%; object-fit: cover;
+            object-position: center;">
                 </div>
                 <div class="col-lg-7">
                     <p class="section-title pr-5"><span class="pr-2">Pelajari Tentang Kami</span></p>

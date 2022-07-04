@@ -59,25 +59,28 @@
             </div>
             <div class="row">
                 <?php
-                include('config/koneksi.php'); 
+                include('config/koneksi.php');
                 $sql = "SELECT * FROM guru ORDER BY id";
                 $query = mysqli_query($con, $sql);
-                
-                while($guru = mysqli_fetch_array($query))
-                {
-                    ?>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
-                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="img/<?php echo $guru['foto']; ?>" alt="">
-                        
-                    </div>
-                    <h4><?php echo $guru['nama']; ?></h4>
-                    <i><?php echo $guru['alamat']; ?></i>
-                </div>
-                <?php
-                    };
+
+                while ($guru = mysqli_fetch_array($query)) {
                 ?>
-                
+                    <div class="col-md-6 col-lg-3 text-center team mb-5">
+                        <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                            <img class="img-fluid w-100" style="width: 30px;
+            height: 250px;
+            object-fit: cover;
+            object-position: center;
+        }" src="img/<?php echo $guru['foto']; ?>" alt="">
+
+                        </div>
+                        <h4><?php echo $guru['nama']; ?></h4>
+                        <i><?php echo $guru['alamat']; ?></i>
+                    </div>
+                <?php
+                };
+                ?>
+
             </div>
         </div>
     </div>
