@@ -55,31 +55,47 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-5 mb-lg-0" src="img/profil.jpeg" alt="" style="width: 500px; height: 100%; object-fit: cover;
-            object-position: center;">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="img/profil.jpeg" alt="" style="width: 500px; height: 100%; object-fit: cover;object-position: center;">
                 </div>
                 <div class="col-lg-7">
                     <p class="section-title pr-5"><span class="pr-2">Pelajari Tentang Kami</span></p>
                     <h1 class="mb-4">Sekolah Terbaik Untuk Anak Anda</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
+                    <h3>Visi</h3>
+                    <p>Menciptakan Generasi Ruang Gembira, Aktf, Kreatif, Taqwa dan Berakhlak Mulia.</p>
+                    <h3>Misi</h3>
                     <div class="row pt-2 pb-4">
-                        <div class="col-6 col-md-8">
+                        <div class="col-10 col-md-8">
                             <ul class="list-inline m-0">
-                                <li class="py-2 border-top border-bottom"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
-                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit
-                                    dolor amet ipsum</li>
-                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Diam dolor
-                                    diam elitripsum vero.</li>
+                                <li class="py-2 border-top border-bottom"><i class="fa fa-check text-primary mr-3"></i>Menyediakan wahana permainan yang memadai.</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Menyediakan sarana pembelajaran yang memadai.</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Melaksanakan pembiasaan berdoa, bersikap sopan santun dan berakhlak mulia.</li>
                             </ul>
                         </div>
                     </div>
                     <!-- <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a> -->
                 </div>
+                <div class="col-lg-7">
+                    <h3>Tujuan</h3>
+                    <div class="row pt-2 pb-4">
+                        <div class="col-10 col-md-8">
+                            <ul class="list-inline m-0">
+                                <li class="py-2 border-top border-bottom"><i class="fa fa-check text-primary mr-3"></i>Berusaha membentuk kepribadian anak agar bertaqwa kepada Allah SWT, berbudi pekerti yang baik dan sopan santun.</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Anak memiliki kemampuan dasar dalam beribadah.</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Membangun landasan berkembangnya potensi peserta didik agar menjadi manusia yang beriman dan bertaqwa kepada Allah SWT.</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Membentuk generasi muslim yang beriman dan berakhlak mulia.</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Membiasakan peserta didik dalam setiap kehidupan sehari-harinya untuk selalu mengingat Allah.</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Membantu peserta didik mengembangkan potensi yang dimiliki baik phikis maupun fisik yang meliputi Nilai-nilai Agama dan moral, Sosial emosional, Kognitif, Bahasa, Fisik dan motorik, Kemandirian dan Seni.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="img/galeri7.jpeg" alt="" style="width: 500px; height: 300px; object-fit: cover; object-position: center;">
+                </div>
             </div>
         </div>
     </div>
+
     <!-- About End -->
 
     <!-- Testimonial Start -->
