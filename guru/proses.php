@@ -13,8 +13,8 @@
    }else{
     if($ukuran < 6048000){ 
     move_uploaded_file($_FILES['foto']['tmp_name'], '../img/'.$filename);
-    mysqli_query($con, "INSERT INTO guru VALUES (NULL,'$_POST[nama]', '$_POST[kelamin]','$_POST[tempat_lahir]', 
-    '$_POST[tanggal_lahir]', '$_POST[alamat]','$_POST[phone]', '$filename')");
+    mysqli_query($con, "INSERT INTO guru VALUES (NULL,'$_POST[nama]', '$_POST[kelamin]','$_POST[posisi]', 
+    '$_POST[alamat]','$_POST[phone]', '$filename')");
     header("location:profil.php?alert=berhasil");
     }else{
     header("location:profil.php?alert=gagal_ukuran");

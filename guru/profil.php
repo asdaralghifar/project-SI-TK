@@ -199,17 +199,13 @@
                                         </div>
                                     </div>
                                     <div class="form-group mb-4">
-                                        <label class="col-md-12 p-0">Tempat Lahir</label>
+                                        <label class="col-sm-12">Posisi/Jabatan</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="text" name="tempat_lahir" placeholder="Isi Tempat Lahir Anda"
-                                                class="form-control p-0 border-0"> </div>
+                                            <input type="text" name="posisi" placeholder="Isi Posisi Anda"
+                                                class="form-control p-0 border-0">
+                                        </div>
                                     </div>
-                                    <div class="form-group mb-4">
-                                        <label class="col-md-12 p-0">Tanggal Lahir</label>
-                                        <div class="col-md-12 border-bottom p-0">
-                                            <input type="date" name="tanggal_lahir"
-                                                class="form-control p-0 border-0"> </div>
-                                    </div>
+                                    
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0">Alamat</label>
                                         <div class="col-md-12 border-bottom p-0">

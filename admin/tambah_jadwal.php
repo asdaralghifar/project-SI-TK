@@ -222,7 +222,7 @@
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0">Waktu</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="time" name="waktu" placeholder="Isi waktu"
+                                            <input type="text" name="waktu" placeholder="Isi waktu"
                                                 class="form-control p-0 border-0"> </div>
                                     </div>
                                     <div class="form-group mb-4">

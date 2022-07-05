@@ -71,11 +71,11 @@
             height: 250px;
             object-fit: cover;
             object-position: center;
-        }" src="img/<?php echo $guru['foto']; ?>" alt="">
+        }"         src="img/<?php echo $guru['foto']; ?>" alt="">
 
                         </div>
                         <h4><?php echo $guru['nama']; ?></h4>
-                        <i><?php echo $guru['alamat']; ?></i>
+                        <i><?php echo $guru['posisi']; ?></i>
                     </div>
                 <?php
                 };

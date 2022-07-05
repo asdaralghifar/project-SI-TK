@@ -63,18 +63,11 @@
                         TK ISLAM LADONGI JAYA
                         </span>
                     </a>
-                    <!-- ============================================================== -->
-                    <!-- End Logo -->
-                    <!-- ============================================================== -->
-                    <!-- ============================================================== -->
-                    <!-- toggle and nav items -->
-                    <!-- ============================================================== -->
+                   
                     <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
                         href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                 </div>
-                <!-- ============================================================== -->
-                <!-- End Logo -->
-                <!-- ============================================================== -->
+                
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
                    
                     <!-- ============================================================== -->
@@ -234,7 +227,7 @@
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0">Waktu</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="time" name="waktu" value="<?php echo $waktu; ?>"
+                                            <input type="text" name="waktu" value="<?php echo $waktu; ?>"
                                                 class="form-control p-0 border-0"> </div>
                                     </div>
                                     <div class="form-group mb-4">

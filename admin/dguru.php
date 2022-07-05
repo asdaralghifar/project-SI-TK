@@ -195,8 +195,7 @@
                                             <th class="border-top-0">No</th>
                                             <th class="border-top-0">Nama</th>
                                             <th class="border-top-0">Jenis Kelamin</th>
-                                            <th class="border-top-0">Tempat Lahir</th>
-                                            <th class="border-top-0">Tanggal Lahir</th>
+                                            <th class="border-top-0">Posisi</th>
                                             <th class="border-top-0">Alamat</th>
                                             <th class="border-top-0">Phone</th>
                                             <th class="border-top-0">Foto</th>
@@ -218,8 +217,7 @@
                                             echo "<td>".$no++."</td>";
                                             echo "<td>".$guru['nama']."</td>";
                                             echo "<td>".$guru['kelamin']."</td>";
-                                            echo "<td>".$guru['tempat_lahir']."</td>";
-                                            echo "<td>".$guru['tanggal_lahir']."</td>";
+                                            echo "<td>".$guru['posisi']."</td>";
                                             echo "<td>".$guru['alamat']."</td>";
                                             echo "<td>".$guru['phone']."</td>";?>
                                             <td><?php echo "<img src='../img/$guru[foto]' width='50' height='50' />";?></td>
