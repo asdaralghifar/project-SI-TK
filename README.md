@@ -1,1 +1,1 @@
-Link : tkislamladongi.byethost6.com
+Link: tkislamladongi.byethost6.com
