@@ -1,1 +1,1 @@
-Here is the link to access the website https://tkislamladongi.byethost6.com
+Here is the link to access the website http://tkislamladongi.byethost6.com/
